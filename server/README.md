@@ -19,6 +19,12 @@ npx tsc --init
 npm install
 ```
 
+## Run migrations
+
+```shell
+npm run knex:migrate
+```
+
 ---
 
 ## HTTP methods
@@ -35,3 +41,7 @@ npm install
 ## Query params
 
 - Optional routes' params fo filters, pagination, etc.
+
+## Request body
+
+- Create/Update params information
