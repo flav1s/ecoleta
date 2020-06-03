@@ -51,3 +51,11 @@ npm run knex:seed
 ## Request body
 
 - Create/Update params information
+
+## Controller methods
+
+- Index: List an entitie
+- Show: Show a single entitie
+- Create: Create an entitie
+- Update: Update an entitie
+- Delete: Destroy/delete an entitie
