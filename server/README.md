@@ -25,6 +25,12 @@ npm install
 npm run knex:migrate
 ```
 
+## Populate database
+
+```shell
+npm run knex:seed
+```
+
 ---
 
 ## HTTP methods
