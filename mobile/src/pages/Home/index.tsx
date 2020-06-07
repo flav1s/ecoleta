@@ -48,7 +48,10 @@ const Home = () => {
   }, [selectedUf]);
 
   function handleNavigateToPoints() {
-    navigation.navigate("Points");
+    navigation.navigate("Points", {
+      uf: selectedUf,
+      city: selectedCity
+    });
   }
 
   function handleSelectUf(uf: string) {
