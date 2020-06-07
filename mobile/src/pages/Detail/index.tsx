@@ -5,6 +5,7 @@ const Detail = () => {
   return <View />;
 };
 
+export default Detail;
 
 const styles = StyleSheet.create({
   container: {
