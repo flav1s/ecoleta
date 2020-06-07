@@ -1,4 +1,5 @@
 import React from "react";
+import { Feather as Icon} from '@expo/vector-icons'
 import { StyleSheet, ImageBackground, View, Image, Text } from "react-native";
 import { RectButton } from "react-native-gesture-handler";
 
@@ -19,7 +20,7 @@ const Home = () => {
       <View style={styles.footer}></View>
       <RectButton style={styles.button} onPress={() => {}}>
         <View style={styles.buttonIcon}>
-          <Text>></Text>
+          <Text><Icon name="arrow-right" color="#fff" size={24}/></Text>
         </View>
         <Text style={styles.buttonText}>Entrar</Text>
       </RectButton>
